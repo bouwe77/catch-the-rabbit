@@ -18,6 +18,13 @@ export default function App() {
 
   const check = () => {
     // Determine new index to check
+
+    //
+    //
+    // TO DO: The most efficient seems to be to try odd indexes first, and then even indexes (or vice versa, doesn't matter)
+    //
+    //
+
     let newIndex;
     let newGoLeft = goLeft;
     if (index === 0) {
